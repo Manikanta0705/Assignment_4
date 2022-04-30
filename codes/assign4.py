@@ -1,3 +1,4 @@
+#for printing sample of two dice rolling once
 import itertools
 x_list = [1,2,3,4,5,6]
 y_list = [1,2,3,4,5,6]
