@@ -1,9 +1,10 @@
-import numpy as np
-from numpy import linalg as LA
-from numpy import random as RN 
+import itertools
+x_list = [1,2,3,4,5,6]
+y_list = [1,2,3,4,5,6]
+cartesian_product = itertools.product(x_list, y_list)
 
-a=[]
-#n=int(input("Enter number of elements:"))
-for j in range(36):
-    a.append(RN.randint(1,6,2))
-print('SAMPLE SPACE is: ',a)
+
+cartesian_list = list(cartesian_product)
+
+
+print(cartesian_list)
